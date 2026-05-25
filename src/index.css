@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-k12-blue: #0035f0;
+  --color-k12-blue-hover: #0029c4;
+  --color-k12-sky: #e8f0ff;
+  --color-k12-sky-deep: #d4e4ff;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply min-h-screen bg-[#f0f5fc] font-sans text-slate-800 antialiased;
+  }
+}
